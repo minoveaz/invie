@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Invie - Tus mejores guitarras!!</title>
-    <link rel="stylesheet" href="css/invie.css">
     <!-- <link rel="stylesheet" media="(max-width: 800px)"href="css/media-querie.css"> -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet"> -->
      <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+     <style media="screen">
+        @font-face{font-family:'icomoon';src:url(./fonts/icomoon.eot?6s6d3k);src:url(./fonts/icomoon.eot?6s6d3k#iefix) format("embedded-opentype"),url(./fonts/icomoon.ttf?6s6d3k) format("truetype"),url(./fonts/icomoon.woff?6s6d3k) format("woff"),url(./fonts/icomoon.svg?6s6d3k#icomoon) format("svg");font-weight:400;font-style:normal}[class*=" icon-"]{font-family:'icomoon'!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-menu:before{content:"\e902"}body{font-family:'Allerta',sans-serif;margin:0}header{position:relative}.burguer-button{display:none}.button{border-radius:8px;background:#fd324e;color:#fff;border:none;padding:7px 12px;font-size:18px;background:linear-gradient(to left,#fe344e,#ff7250)}.contenedor{max-width:800px;margin:auto}.background{background-image:url(./images/background.png);background-size:cover}.titulo{font-size:70px;font-family:'Montserrat',sans-serif;margin-bottom:0;margin-top:70px}.title-a{font-size:24px;margin-top:0}.guitarras{color:#1F313C;margin-bottom:60px}.guitarras h2{font-size:35px;font-family:'Montserrat',sans-serif}.portada{color:#fff;padding:20px;height:auto}.menu{font-size:24px;display:inline-block;right:0}.menu li{display:inline-block;margin-left:30px;line-height:20px}.menu li:before{content:'°';font-size:50px;line-height:20px;color:#fff}.menu a{color:#fff;text-decoration:none}.logotipo{display:inline-block;margin-left:0}.guitarra{margin:10px 10px 40px;padding:10px;border:1px solid #1F313C;border-radius:8px}.derecha{float:right;position:relative;top:-127px}.video-demo{max-width:500px;width:100%;border:5px solid #3c5b5e}.video-demo-contenedor{display:flex;justify-content:center;margin-bottom:80px}@media screen and (max-width: 800px){.titulo{font-size:45px;margin-top:30px}.title-a{font-size:18px}.portada .button{margin-bottom:30px;display:inline-block}.video-demo-contenedor{margin-bottom:30px}.guitarras{text-align:center}.derecha{float:none;position:static}}@media screen and (max-width: 650px){.header{text-align:center}.logotipo{margin:0}.menu{position:static;display:block;text-align:center}.menu li:first-child{margin:0}.menu ul{padding:0}}@media screen and (max-width: 500px){.portada .button{display:block}.burguer-button{width:40px;border-radius:50%;line-height:40px;height:40px;background:#395667;display:inline-block;text-align:center;position:fixed;left:20px;top:20px;color:#fff;z-index:3}.portada .contenedor{position:static}.header{position:static}.menu{background:rgba(255,60,88,.8);position:fixed;top:0;left:-100%;width:100%;z-index:2;bottom:0;right:0;display:flex;align-items:center}.menu ul{flex:1}.menu li{display:block;text-align:center;margin:0;padding:8px 0;border-bottom:1px solid #fff}.menu li:before{display:none}.menu li:first-child{border-top:1px solid #fff}.portada{text-align:center}.titulo{font-size:30px}.title-a{font-size:16px}.guitarra img{width:200px}.video-demo-contenedor{margin:0 10px 30px}}.video-responsive-contenedor{position:relative;padding-top:56.25%}.video-responsive-src{position:absolute;left:0;right:0;top:0;bottom:0;width:100%;height:100%}@media screen and (-webkit-min-device-pixel-ratio:2){.background{background-image:url(./images/background2x.png)}}
+     </style>
   </head>
   <body>
     <section id="portada" class="portada background">
@@ -124,6 +126,16 @@
         </form>
     </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Allerta', 'Montserrat']
+        }
+      });
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js" type="text/javascript">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"type="text/javascript">
@@ -171,6 +183,6 @@
 
 
     </script>
-
+    <link rel="stylesheet" href="css/invie.css">
   </body>
 </html>
